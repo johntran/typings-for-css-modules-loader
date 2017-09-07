@@ -58,7 +58,7 @@ export const generateGenericExportInterface = (
 ${interfaceProperties}
 }
 
-const locals: ${interfaceName};
+export const locals: ${interfaceName};
 export default locals;
 `;
 };
